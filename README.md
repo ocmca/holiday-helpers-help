@@ -1,31 +1,53 @@
-# HudsonHolidayHelpers.com - Customer Relations Manager
+## HolidayHelpers Client Manager
+
+_This repository strives to be a unified resource in support of the aforementioned web app._
 
 ### Table of Contents
 
 1) Why the turmoil? I thought this thing worked 9 years ago...
 2) Recent Changes & Outlook for 2022
 3) How to Report an Issue
-4) Known bugs and work-a-rounds for interim
+4) Known bugs and interim work-grounds
 5) Contacting Owen
 6) Changelog Archive
 
 
 ### Why the turmoil? I thought this thing worked 9 years ago...
 
-Job security, for the people who make ant-acids. Long story short, programming languages evolve as technology does, for many issues, namely security. After 9 years, most of the code we wrote and the code written by the authors of nearly every library we were using is now considered deprecated, and some not even supported anymore. This is currently forcing us to remain using PHP5.6, which stopped receiving support and security updates  back when you should have been buying bitcoin. 2017.
+When the client manager was originally written, PHP 5.6 was the current version.
+Now 8.1 is the latest release and 5.6 stopped receiving support back in 2017.
 
-The changes are not purely cosmetic, but a complete overhaul of the network of frameworks we initially patched together. MySQLi is now in place, as MySQL is dead. We are using a strongly-typed language called TypeScript to replace and stay current with the yearly advancements in JavaScript. Typescript is very strict and leaves the developer with the future problems that JS would create in their hands that moment. So, less problems encountered as the software works as intended.
+Also, in the 13 years gone by, Javascript has evolved into one of the most popular languages and able to provide user experiences that a server-side language like PHP simply cannot.
 
-We are not switching to PHP8.1 yet, only because that would completely obsolete every third party library we employ. After the switch is complete to the progressive style web app, PHP will be used sparingly to fill in whatever gaps are necessary. This all will probably consume the entire season, but I will do my best to keep up with fixing issues **that will arise**.
+As issues arise from the deprecation, those parts are being rewritten using modern code.
+
+We are not switching to PHP8.1 yet, only because that would completely obsolete every third party library we employ. After the site is fully functional again including all requested changes still pending, we will make the switch, with the end result of moving away from PHP wherever we can.
+
+This will inevitably consume the entire season, but I will do my best to keep up with mounting issues as they are reported.
 
 
 
 ### Recent Changes & Outlook for 2022
 
+#### 11/14/22
+ - Layout
+   - To speed up fixes and upgrades, the view has been limited to a mobile simulation on Desktop. The ultimate goal is to provide every feature no matter the device.
+   - The Vex module popups we were using are being converted to inline elements for user input to cooperate with mobile devices.
+ - Fixes
+   - Balance sheet loads and shows correct number, and is able to accept payments.
+   - Call List (now called Leads) functions again.
+   - Several issues with the calendar fixed:
+     - Days between start and end are now also shown in the middle days
+     - Database connectivity errors
+     - Converted several deprecated functions into useable code.
+   - Front page active list was not showing up
+   - Archive now loads asynchronously with still some work to do for improving workflow and eliminating glitches.
+ - Created Support Hub (this) and link via the sidemenu
+
 #### 10/26/22
 
 - Confirming _leads_, formerly the _call list_, and scheduling should now work instead of giving 500 server error.
-  - [ ] Issue #1: **HIGH PRIORITY**
+  - [x] Issue #1: **HIGH PRIORITY**
     - Entering an event spanning 3 _or more_ days will result in only displaying the first and last day on the calendar views
 - The menu on mobile phones was not displaying in most situations, should resolved.
 - _Vex modals_ are dead and we are no longer utilizing their project. They will be replaced with a non-modal solution keeping inline with a _mobile-first_ approach to user experience design.
