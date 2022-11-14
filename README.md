@@ -67,27 +67,22 @@ Please do not hesitate to contact me at any time with an issue.
 - Mobile
   - **_434-257-6835_** (preferred)
 
-### Known bugs and work-a-rounds for interim
+### Known bugs and work-arounds for interim
 
-  - Multiple Issues with Invoices (top priority)
-  - Balances (top priority)
-  - Display Issues
-  - Map Issues
-  - Time Clock Issues
-  - Mobile vs Desktop Issues
+- [ ] Multiple Issues with Invoices (top priority)
+- [ ] Balances (top priority)
+- [ ] Display Issues
+- [ ] Map Issues
+- [ ] Time Clock Issues
+- [ ] Mobile vs Desktop Issues
 
 ### Contacting Owen
 
-Please do not hesitate to contact me at any time  with an issue.
+Please do not hesitate to contact me at any time with an issue.
 
-   - Email
-     - _omcalack@gmail.com_  
-   - SMS
-     - _**415-484-9379**_
-   - Mobile
-     - **_434-257-6835_**
+_Find the contact details in the app.._
 
-### Changelog Archive
+### Change History
 
 Here is a log of the changes made to the website for the sake of man and woman-kind that are to come.
 
