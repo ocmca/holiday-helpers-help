@@ -56,16 +56,7 @@ This will inevitably consume the entire season, but I will do my best to keep up
 
 ### How to Report an Issue
 
-We currently lack a more formal issue tracking software for this project, so just contact me directly as listened below.
-
-Please do not hesitate to contact me at any time with an issue.
-
-- Email
-  - _omcalack@gmail.com_
-- SMS
-  - _**415-484-9379**_
-- Mobile
-  - **_434-257-6835_** (preferred)
+Submit and track the status of a bug by creating an [issue](https://github.com/ocmca/holiday-helpers-help/issues/new).
 
 ### Known bugs and work-arounds for interim
 
