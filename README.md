@@ -2,7 +2,7 @@
 
 _This repository strives to be a unified resource in support of the aforementioned web app. [Report an Issue](https://github.com/ocmca/holiday-helpers-help/issues)._
 
-### Table of Contents
+### <a id='top'></a>Table of Contents
 
 1) [KNOWN ISSUES](#ki)
 1) [Most Recent Updates & Outlook for 2022/23](#mr)
@@ -11,7 +11,7 @@ _This repository strives to be a unified resource in support of the aforemention
 1) [Getting Support](#gs)
 1) [Changes Backlog](#ca)
 
-
+----
 
 ### <a id='ki'></a>KNOWN ISSUES
 
@@ -33,6 +33,10 @@ _This repository strives to be a unified resource in support of the aforemention
 
 #### Time Clock
  - [ ] Untested
+
+[Back to Top](#top)
+
+----
 
 
 ### <a id='mr'></a>Most Recent Updates & Outlook for 2022/23
@@ -60,11 +64,15 @@ _This repository strives to be a unified resource in support of the aforemention
 - The menu on mobile phones was not displaying in most situations, should resolved.
 - _Vex modals_ are dead and we are no longer utilizing their project. They will be replaced with a non-modal solution keeping inline with a _mobile-first_ approach to user experience design.
 
-  >You will probably find some weird un-vexed popups still. Please report these to me when you do.
+  > You will probably find some weird un-vexed popups still. Please report these to me when you do.
 
 ### <a id='ri'></a>How to Report an Issue
 
 Submit and track the status of a bug by creating an [issue](https://github.com/ocmca/holiday-helpers-help/issues/new).
+
+[Back to Top](#top)
+
+----
 
 ### <a id='yc'></a>Why?
 
@@ -79,11 +87,20 @@ We are not switching to PHP8.1 yet, only because that would completely obsolete 
 
 This will inevitably consume the entire season, but I will do my best to keep up with mounting issues as they are reported.
 
+[Back to Top](#top)
+
+----
+
 ### <a id='gs'></a>Getting Support
 
 Please do not hesitate to contact me at any time with an issue.
 
 _Find the contact details in the appm or asking ***Aeiel*** or ***Eric***._
+
+
+[Back to Top](#top)
+
+----
 
 ###  <a id='ca'></a>Changes Backlog
 
@@ -128,3 +145,6 @@ adjusted in the future as our needs for data collection and parsing may change.)
 code that is required to interject custom web fonts into the website's design, and configured the fonts as was
 necessary.
 - Started parsing through CSS code from Liquidators' site and copying over tags, classes, and other shit to reuse
+- 
+[Back to Top](#top)
+
