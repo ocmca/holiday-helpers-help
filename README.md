@@ -1,6 +1,6 @@
 ## HolidayHelpers Client Manager
 
-_This repository strives to be a unified resource in support of the aforementioned web app. [Report an Issue](https://github.com/ocmca/holiday-helpers-help/issues)._
+> _This repository strives to be a eentral resource for Client Manager support. [Report an Issue](https://github.com/ocmca/holiday-helpers-help/issues)._
 
 ### <a id='top'></a>Table of Contents
 
