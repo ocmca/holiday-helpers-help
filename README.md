@@ -1,33 +1,41 @@
 ## HolidayHelpers Client Manager
 
-_This repository strives to be a unified resource in support of the aforementioned web app._
+_This repository strives to be a unified resource in support of the aforementioned web app. [Report an Issue](https://github.com/ocmca/holiday-helpers-help/issues)._
 
 ### Table of Contents
 
-1) Why the turmoil? I thought this thing worked 9 years ago...
-2) Recent Changes & Outlook for 2022
-3) How to Report an Issue
-4) Known bugs and interim work-grounds
-5) Contacting Owen
-6) Changelog Archive
-
-
-### Why the turmoil? I thought this thing worked 9 years ago...
-
-When the client manager was originally written, PHP 5.6 was the current version.
-Now 8.1 is the latest release and 5.6 stopped receiving support back in 2017.
-
-Also, in the 13 years gone by, Javascript has evolved into one of the most popular languages and able to provide user experiences that a server-side language like PHP simply cannot.
-
-As issues arise from the deprecation, those parts are being rewritten using modern code.
-
-We are not switching to PHP8.1 yet, only because that would completely obsolete every third party library we employ. After the site is fully functional again including all requested changes still pending, we will make the switch, with the end result of moving away from PHP wherever we can.
-
-This will inevitably consume the entire season, but I will do my best to keep up with mounting issues as they are reported.
+1) [KNOWN ISSUES](#ki)
+1) [Most Recent Updates & Outlook for 2022/23](#mr)
+1) [How to Report an Issue](#ri)
+1) [Why?](#yc)
+1) [Getting Support](#gs)
+1) [Changes Backlog](#ca)
 
 
 
-### Recent Changes & Outlook for 2022
+### <a id='ki'></a>KNOWN ISSUES
+
+> *The following are being processed and should not be [created](https://github.com/ocmca/holiday-helpers-help/issues) unless necessary.*
+
+#### Invoices
+ - [ ] Incorrectly displays only the current year in the customer details page
+ - [ ] Customer's without a monetary estimate should be hidden from Balances
+
+#### Balances
+ - [x] Unable to add Balances (top priority)
+
+#### User Interface
+ - [ ] Display Issues (on going)
+ - [ ] Re-enable Tablet & Destop views that are deactivated temporarily
+
+#### Map
+ - [ ] Map doesn't work correctly
+
+#### Time Clock
+ - [ ] Untested
+
+
+### <a id='mr'></a>Most Recent Updates & Outlook for 2022/23
 
 #### 11/14/22
  - Layout
@@ -37,9 +45,9 @@ This will inevitably consume the entire season, but I will do my best to keep up
    - Balance sheet loads and shows correct number, and is able to accept payments.
    - Call List (now called Leads) functions again.
    - Several issues with the calendar fixed:
-     - Days between start and end are now also shown in the middle days
-     - Database connectivity errors
-     - Converted several deprecated functions into useable code.
+      - Days between start and end are now also shown in the middle days
+      - Database connectivity errors
+      - Converted several deprecated functions into useable code.
    - Front page active list was not showing up
    - Archive now loads asynchronously with still some work to do for improving workflow and eliminating glitches.
  - Created Support Hub (this) and link via the sidemenu
@@ -54,26 +62,30 @@ This will inevitably consume the entire season, but I will do my best to keep up
 
   >You will probably find some weird un-vexed popups still. Please report these to me when you do.
 
-### How to Report an Issue
+### <a id='ri'></a>How to Report an Issue
 
 Submit and track the status of a bug by creating an [issue](https://github.com/ocmca/holiday-helpers-help/issues/new).
 
-### Known bugs and work-arounds for interim
+### <a id='yc'></a>Why?
 
-- [ ] Multiple Issues with Invoices (top priority)
-- [ ] Balances (top priority)
-- [ ] Display Issues
-- [ ] Map Issues
-- [ ] Time Clock Issues
-- [ ] Mobile vs Desktop Issues
+When the client manager was originally written, PHP 5.6 was the current version.
+Now 8.1 is the latest release and 5.6 stopped receiving support back in 2017.
 
-### Contacting Owen
+Also, in the 13 years gone by, Javascript has evolved into one of the most popular languages and able to provide user experiences that a server-side language like PHP simply cannot.
+
+As issues arise from the deprecation, those parts are being rewritten using modern code.
+
+We are not switching to PHP8.1 yet, only because that would completely obsolete every third party library we employ. After the site is fully functional again including all requested changes still pending, we will make the switch, with the end result of moving away from PHP wherever we can.
+
+This will inevitably consume the entire season, but I will do my best to keep up with mounting issues as they are reported.
+
+### <a id='gs'></a>Getting Support
 
 Please do not hesitate to contact me at any time with an issue.
 
-_Find the contact details in the app.._
+_Find the contact details in the appm or asking ***Aeiel*** or ***Eric***._
 
-### Change History
+###  <a id='ca'></a>Changes Backlog
 
 Here is a log of the changes made to the website for the sake of man and woman-kind that are to come.
 
